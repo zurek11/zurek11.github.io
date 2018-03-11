@@ -1,0 +1,37 @@
+---
+layout: header_footer
+title: About | Adam Žúrek
+site: about
+---
+
+<div class="row-fluid">
+    <div class="content col-sm-3">
+        <img src="/src/profile_picture.jpg" width="100%" height="350px">
+    </div>
+    <div class="col-sm-5">
+        <h1>About</h1>
+        <p>
+            My name is Adam Žúrek.
+        </p>
+        {%   assign today = site.time | date: '%s'      %}
+        {%   assign birthsDay = '28-12-1996 04:00:00' | date: '%s'  %}
+        {%   assign secondsSince = today | minus: birthsDay     %}
+        {%   assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60     %}
+        {%   assign daysSince = hoursSince | divided_by: 24  %}
+        {%   assign yearsSince = daysSince | divided_by: 365  %}
+        <p>
+            I'm {{yearsSince}} years old.
+        </p>
+        <p>
+            I study at the Slovak University of Technology in Bratislava, Faculty of Informatics and Information Technologies.
+        </p>
+        <p>
+            I am very interested in IT. My skills include programming, designing and managing databases.
+            I have a job experience as a back-end developer in Scala. My hobbies include programming games, testing and playing them.
+            Also, from "the real life" I enjoy traveling, hiking, gastronomy and bodybuilding.
+            I am fascinated by VR technology at most, but I am open to all the experience IT can offer me.
+        </p>
+    </div>
+</div>
+
+<link rel="stylesheet" href="/css/about.css">

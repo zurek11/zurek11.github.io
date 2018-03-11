@@ -1,0 +1,55 @@
+a:hover {
+    color: #e6e6e6;
+    text-decoration: none;
+
+}
+
+.info {
+    float: left;
+}
+
+.social {
+    float: right;
+}
+.social:hover {
+    opacity: 0.5;
+}
+
+.footer_link {
+    float: left;
+}
+
+.footer_link:hover {
+    opacity: 0.5;
+}
+
+.wp {
+    float: right;
+}
+
+#content {
+    margin-top: 51px;
+    margin-bottom: 100px;
+}
+
+#footer_table {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #222;
+    border: 0;
+    border-top: 1px solid #080808;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #9d9d9d;
+    margin: 1em 0;
+    padding: 0;
+}

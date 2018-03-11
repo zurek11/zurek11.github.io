@@ -1,0 +1,93 @@
+- title: Programming skills
+  skills:
+
+    - title: C
+      percent: 70
+      level: Advanced
+      color: #33ccff
+
+    - title: Java
+      percent: 70
+      level: Advanced
+      color: #33ccff
+
+    - title: HTML5 (Bootstrap, Semantic UI)
+      percent: 70
+      level: Advanced
+      color: #33ccff
+
+    - title: CSS (SASS)
+      percent: 70
+      level: Advanced
+      color: #33ccff
+
+    - title: C# (Unity)
+      percent: 50
+      level: Intermediate
+      color: #33ccff
+
+    - title: Scala (Spring)
+      percent: 50
+      level: Intermediate
+      color: #33ccff
+
+    - title: Python (Django)
+      percent: 50
+      level: Intermediate
+      color: #33ccff
+
+    - title: Javascript (JQuery, Node.js)
+      percent: 50
+      level: Intermediate
+      color: #33ccff
+
+- title: Software skills
+  skills:
+
+    - title: JetBrains IDE
+      percent: 70
+      level: Advanced
+      color: purple
+
+    - title: MS Office
+      percent: 70
+      level: Advanced
+      color: purple
+
+    - title: Sony Vegas Pro
+      percent: 50
+      level: Intermediate
+      color: purple
+
+    - title: 3D's MAX
+      percent: 50
+      level: Intermediate
+      color: purple
+
+    - title: Unity
+      percent: 50
+      level: Intermediate
+      color: purple
+
+    - title: Photoshop
+      percent: 50
+      level: Intermediate
+      color: purple
+
+- title: Language skills
+  skills:
+
+    - title: Slovak
+      percent: 100
+      level: Mother language
+      color: teal
+
+    - title: English
+      percent: 70
+      level: Advanced
+      color: teal
+
+    - title: German
+      percent: 20
+      level: Beginner
+      color: teal

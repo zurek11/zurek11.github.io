@@ -1,2 +1,9 @@
-name: Hank Quinlan, Horrible Cop
+name: Adam Žúrek, Student of Slovak University of Technology
 markdown: kramdown
+permalink: /projects/:title
+plugins:
+  - jekyll-timeago
+collections:
+  wp:
+    output: true
+    permalink: /:collection/:title

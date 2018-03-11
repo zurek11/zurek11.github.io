@@ -1,0 +1,17 @@
+---
+layout: header_footer
+title: Projects | Adam Žúrek
+site: projects
+---
+
+<div class="list-group" style="margin-top: 20px">
+    <h1>Projects</h1>
+    {% for project in site.posts %}
+        <a href="{{ project.url }}" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ project.title }}</h5>
+                <small>{{ project.date|timeago }}</small>
+            </div>
+        </a>
+    {% endfor %}
+</div>

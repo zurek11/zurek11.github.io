@@ -1,0 +1,24 @@
+---
+layout: header_footer
+title: Skills | Adam Žúrek
+site: skills
+---
+
+{% for skill in site.data.skills %}
+<h1>{{ skill.title|upcase }}</h1>
+<div class="ui {{ skill.size }} column doubling stackable grid container">
+    {% for subskill in skill.skills %}
+    <div class="col-sm-3">
+        <h5>{{ subskill.title }}</h5>
+        <div class="progress">
+            <div class="progress-bar"
+                 role="progressbar" aria-valuenow="{{ subskill.percent }}"
+                 aria-valuemin="0" aria-valuemax="100"
+                 style="background-color: {{ subskill.color }}; width: {{ subskill.percent }}%">
+                {{ subskill.level }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}

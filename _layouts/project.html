@@ -1,0 +1,14 @@
+---
+layout: header_footer
+---
+
+<div class="container-fluid" style="margin-top: 20px">
+    <h1> {{ page.title }} </h1>
+    <h4 style="margin-top: 20px; margin-bottom: 20px">Programming language: {{ page.language }}</h4>
+    <div class="row">
+        <div  class="col-sm-5 section">
+            {{ content }}
+        </div>
+    </div>
+    <a href={{ page.link }}><i class="glyphicon glyphicon-folder-open"></i> - Project link</a>
+</div>
