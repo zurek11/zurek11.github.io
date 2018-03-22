@@ -6,7 +6,7 @@
       level: Advanced
       color: 4A4063
 
-    - title: Java
+    - title: Java (Android dev, ...)
       percent: 70
       level: Advanced
       color: 4A4063
@@ -47,6 +47,11 @@
     - title: JetBrains IDE (IntelliJ, PyCharm, ...)
       percent: 70
       level: Advanced
+      color: BFACC8
+
+    - title: Android Studio
+      percent: 50
+      level: Intermediate
       color: BFACC8
 
     - title: MS Office
