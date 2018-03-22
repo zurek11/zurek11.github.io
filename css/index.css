@@ -3,15 +3,13 @@
 }
 
 #logo_bootstrap{
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 #logo_jekyll{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #tools{
-    position: fixed;
-    bottom: 100px;
-    width: 100%;
+    margin-top: 100px;
 }
