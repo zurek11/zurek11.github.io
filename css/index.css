@@ -1,0 +1,17 @@
+.tools_title{
+    display: inline-block;
+}
+
+#logo_bootstrap{
+    margin-bottom: 20px;
+}
+
+#logo_jekyll{
+    margin-bottom: 20px;
+}
+
+#tools{
+    position: fixed;
+    bottom: 100px;
+    width: 100%;
+}

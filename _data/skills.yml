@@ -4,75 +4,111 @@
     - title: C
       percent: 70
       level: Advanced
-      color: #33ccff
+      color: 4A4063
 
     - title: Java
       percent: 70
       level: Advanced
-      color: #33ccff
+      color: 4A4063
 
-    - title: HTML5 (Bootstrap, Semantic UI)
+    - title: HTML5 (Bootstrap, Semantic UI, ...)
       percent: 70
       level: Advanced
-      color: #33ccff
+      color: 4A4063
 
     - title: CSS (SASS)
       percent: 70
       level: Advanced
-      color: #33ccff
+      color: 4A4063
 
     - title: C# (Unity)
       percent: 50
       level: Intermediate
-      color: #33ccff
+      color: 4A4063
 
     - title: Scala (Spring)
       percent: 50
       level: Intermediate
-      color: #33ccff
+      color: 4A4063
 
     - title: Python (Django)
       percent: 50
       level: Intermediate
-      color: #33ccff
+      color: 4A4063
 
-    - title: Javascript (JQuery, Node.js)
+    - title: Javascript (JQuery, Node.js, ...)
       percent: 50
       level: Intermediate
-      color: #33ccff
+      color: 4A4063
 
 - title: Software skills
   skills:
 
-    - title: JetBrains IDE
+    - title: JetBrains IDE (IntelliJ, PyCharm, ...)
       percent: 70
       level: Advanced
-      color: purple
+      color: BFACC8
 
     - title: MS Office
       percent: 70
       level: Advanced
-      color: purple
+      color: BFACC8
 
     - title: Sony Vegas Pro
       percent: 50
       level: Intermediate
-      color: purple
+      color: BFACC8
 
     - title: 3D's MAX
       percent: 50
       level: Intermediate
-      color: purple
+      color: BFACC8
 
     - title: Unity
       percent: 50
       level: Intermediate
-      color: purple
+      color: BFACC8
 
     - title: Photoshop
       percent: 50
       level: Intermediate
-      color: purple
+      color: BFACC8
+
+- title: Operating system skills
+  skills:
+
+    - title: Windows
+      percent: 70
+      level: Advanced
+      color: C8C6D7
+
+    - title: Linux
+      percent: 50
+      level: Intermediate
+      color: C8C6D7
+
+    - title: OSX
+      percent: 30
+      level: Beginner
+      color: C8C6D7
+
+- title: Other IT skills
+  skills:
+
+    - title: Architecture (IBM process designer, Enterprise Architect, Umlet)
+      percent: 50
+      level: Intermediate
+      color: 783F8E
+
+    - title: Database (PostgreSQL, MySQL, SQLite)
+      percent: 70
+      level: Advanced
+      color: 783F8E
+
+    - title: Network (CCNA1)
+      percent: 30
+      level: Beginner
+      color: 783F8E
 
 - title: Language skills
   skills:
@@ -80,14 +116,14 @@
     - title: Slovak
       percent: 100
       level: Mother language
-      color: teal
+      color: 4F1271
 
     - title: English
       percent: 70
       level: Advanced
-      color: teal
+      color: 4F1271
 
     - title: German
       percent: 20
       level: Beginner
-      color: teal
+      color: 4F1271
