@@ -13,3 +13,7 @@
 #tools{
     margin-top: 100px;
 }
+
+#about:hover{
+    color: darkblue;
+}
